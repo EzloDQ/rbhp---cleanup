@@ -1,3 +1,4 @@
+; LRB - 0000753 - Vampire Weekend - A-Punk
 (apunk
    (name "A-Punk")
    (artist "Vampire Weekend")
@@ -12,11 +13,11 @@
          (vocals (7 8))
         )
      )
+     (vocal_parts 3)
      ;                  K    SN      CYMBALS    BS    GUITAR     VOCALS     TRACKS
      (pans        (   0.0    0.0   -1.0  1.0   0.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
      (vols        (  -0.5   -0.5   -2.0 -2.0  -1.0  -3.0 -3.0  -2.5 -2.5  -1.5 -1.5 ))
      (cores       (   -1     -1     -1   -1    -1     1    1    -1   -1    -1   -1  ))
-     ('vocal_parts' 3)
      (drum_solo
         (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
      )
@@ -40,20 +41,24 @@
    (decade the00s)
    (vocal_gender male)
    (format 4)
-   (version 3)               ; Only modified by coders!
+   (version 3)
    (fake {== $SONG_VERSION 0})   
    (downloaded TRUE) 
-   (game_origin lego) ; game origin that the song is from   
-   (song_id 753)         ; ALWAYS set this to 0, unless you are Heather   
-   (rating 1)           ; 1 = everyone, 2 = teen, 3 = mature, 4 = unrated
-   (short_version 0) ; if set to 0, there is no short version of the song (milliseconds)
-   (album_art TRUE) ; if TRUE, the actual album art will be required
+   (game_origin lego)
+   (song_id 753)
+   (rating 1)
+   (short_version 0)
+   (album_art TRUE)
    (year_released 2008)
-   (album_name "Vampire Weekend")   ; OPTIONAL  (e.g. for covers)
-   (album_track_number 3)   ; OPTIONAL (would require album_name if added). If omitted Set Challenges use difficulty sorting.
+   (album_name "Vampire Weekend")
+   (album_track_number 3)
    (video_venues (video_02))
-   ;(pack_name "^^^Moonwalk (or die...) 3-pack^^^")  ; OPTIONAL
    (base_points 404304)
+;Disc Info Added
+   (song_length 141363)
+   (solo (vocal_percussion))
+   (format 10)
+;Tonic Info Added
    (vocal_tonic_note 2)
    (song_tonality 0)
 )
